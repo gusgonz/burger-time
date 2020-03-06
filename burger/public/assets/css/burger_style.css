@@ -1,0 +1,15 @@
+img {
+    width: 250px; 
+}
+
+.container {
+    width: 690px;
+}
+
+.row {
+    text-align: center;
+}
+
+form, h2, img {
+    margin: auto;
+}
