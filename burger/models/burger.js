@@ -4,7 +4,7 @@ const burger = {
     viewBurgers: function (cb) {
         orm.selectAll(result => {
             console.log(result);
-            // cb(result);
+            cb(result);
         });
     },
 
