@@ -7,9 +7,17 @@ const router = express.Router();
 router.get('/', (req, res) => {
     burger.viewBurgers((result) => {
         console.log('View Burgers was Successful!');
-    });
 
-    res.render('index');
+        let hbsObject = {
+            burgers: result
+        };
+
+        res.render('index', hbsObject);
+    });
+});
+
+router.post('/', (req, res) => {
+
 });
 
 
