@@ -3,13 +3,15 @@ const orm = require('../config/orm');
 const burger = {
     viewBurgers: function (cb) {
         orm.selectAll(result => {
-            console.log(result);
             cb(result);
         });
     },
 
-    addBurger: function () {
-
+    addBurger: function (burgerName, cb) {
+        orm.insertOne(burgerName, result => {
+            console.log(result)
+            cb(result);
+        });
     },
 
     devourBurger: function () {
