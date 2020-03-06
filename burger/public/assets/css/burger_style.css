@@ -13,3 +13,11 @@ img {
 form, h2, img {
     margin: auto;
 }
+
+ol {
+    padding: 0px;
+}
+
+.devoured-burger-names {
+  text-decoration: line-through;
+}
