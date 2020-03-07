@@ -1,3 +1,7 @@
+html, body {
+    background-color: #f19f00;
+}
+
 img {
     width: 250px; 
 }
@@ -20,4 +24,33 @@ ol {
 
 .devoured-burger-names {
   text-decoration: line-through;
+}
+
+.devour-button {
+    background-color: #88472e;
+    margin-bottom: 5px;
+    
+    color: #e5cb7a;
+    font-weight: bold;
+}
+
+.burger-names {
+    color: #88472e;
+    
+    font-weight: bold;
+}
+
+label {
+    color: 	#d22501;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #88472e;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+textarea {
+    background-color: #e5cb7a;
 }
